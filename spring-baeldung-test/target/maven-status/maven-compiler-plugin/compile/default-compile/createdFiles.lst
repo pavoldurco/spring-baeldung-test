@@ -1,0 +1,3 @@
+com\durco\baeldungtestapp\BaeldungTestAppApplication.class
+com\durco\baeldungtestapp\controller\ControllerBealdungTest.class
+com\durco\baeldungtestapp\config\SecurityConfiguration.class

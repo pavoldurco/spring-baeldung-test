@@ -1,8 +1,6 @@
 package com.durco.baeldungtestapp.model;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -10,6 +8,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class User {
 
     @Id
@@ -18,9 +18,11 @@ public class User {
     private String surename;
     private int age;
 
+
     public User(String name, String surename, int age) {
         this.name = name;
         this.surename = surename;
         this.age = age;
     }
+
 }

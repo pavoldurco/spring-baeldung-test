@@ -3,6 +3,10 @@
 <head><title>Home Page</title></head>
 <body>
 <h1>Hello !</h1>
-<p>Welcome to <span th:text="${appName}"></span></p>
+<p th:text="'Name: ' + ${user.name}"></p>
+<p th:text="'Surename: ' + ${user.surename}"></p>
+<p th:text="'Age: ' + ${user.age}"></p>
 </body>
 </html>
+
+

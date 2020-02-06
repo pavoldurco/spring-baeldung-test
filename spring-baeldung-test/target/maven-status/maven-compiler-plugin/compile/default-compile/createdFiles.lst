@@ -1,3 +1,6 @@
+com\durco\baeldungtestapp\repository\UserRepository.class
+com\durco\baeldungtestapp\service\UserServiceImpl.class
+com\durco\baeldungtestapp\model\User.class
 com\durco\baeldungtestapp\BaeldungTestAppApplication.class
 com\durco\baeldungtestapp\controller\ControllerBealdungTest.class
-com\durco\baeldungtestapp\config\SecurityConfiguration.class
+com\durco\baeldungtestapp\service\UserService.class
